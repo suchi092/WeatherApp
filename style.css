@@ -1,13 +1,11 @@
 *{
     margin:0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'popins', sans-serif;
 }
 body{
     background-color: #222;
-    overflow:auto;
-    height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,8 +21,7 @@ body{
 
 .main_Card{
     background-color:#00cdff;
-    /* max-height: 100%; */
-    max-width: 470px;
+    height: 100%;
     margin-left: 27rem;
     text-align: center;
     color: #fff;
@@ -42,8 +39,8 @@ body{
     align-items: center;
     height: 60px;
     background: #ebfffc;
-   padding: 10px 25px;
-   border-radius: 30px;
+    padding: 10px 25px;
+    border-radius: 30px;
 
    
 }
@@ -59,19 +56,15 @@ body{
 
 
 
-/* #inp1{
+  #inp1{
     border: 0;
     outline: 0;
     background: #ebfffc;
     border-radius: 50% ;
-    height: 60px;
-    width: 60px;
     cursor:pointer; 
 
-} */
-#inp1{
-    cursor:pointer; 
-}
+}  
+
 
 .inp button img{
     width: 16px;
@@ -116,7 +109,6 @@ body{
 
 .col img{
     width: 40px;
-    
     
 }
 
